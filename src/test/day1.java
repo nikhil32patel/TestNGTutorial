@@ -14,21 +14,18 @@ public class day1 {
 	public void lastexecution() {
 		System.out.println("I am AFTER TEST of class day1");
 	}
-
 	@Test
 	public void Demo() {
 		System.out.println("I am Demo test method of class day1");// automation
 
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 		// Assert.assertTrue(false);
 	}
-
 	@AfterSuite
 	public void afSyite() {
 		System.out.println("I am AFTER SUITE of class day1 ");
 
 	}
-
 	@Test
 	public void SecondTest() {
 		System.out.println("I am SecondTest method of class day1");

@@ -14,13 +14,11 @@ public class day4 {
 		System.out.println(uname);
 
 	}
-
 	@Test(groups = { "Smoke" })
 	public void MobileLoginHomeLoan() {
 		// Appium
 		System.out.println("MobileloginHome");
 	}
-
 	@Test
 	public void LoginAPIHomeLoan() {
 		// Rest API automation
